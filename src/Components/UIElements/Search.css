@@ -38,3 +38,11 @@
 .hidden{
     display: none;
 }
+@media (max-width: 650px){
+    .searchResult{
+        max-width: 400px;
+        width: 90%;
+        left: 10px;
+    }
+
+}
