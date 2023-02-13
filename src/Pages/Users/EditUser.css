@@ -48,6 +48,7 @@
     border-bottom: 1px solid lightgray;
     padding: 10px 0px;
     font-size: .7rem;
+    width: 100%;
 }
 .btn{
     font-size: .7rem;

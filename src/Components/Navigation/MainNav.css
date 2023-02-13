@@ -12,6 +12,7 @@
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
+  line-height: 50px;
 }
 .searchBar{
   background-color: white;

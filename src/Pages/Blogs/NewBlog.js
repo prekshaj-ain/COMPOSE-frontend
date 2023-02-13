@@ -74,12 +74,12 @@ function NewBlog() {
   };
   const clickHandler = async () => {
     setLoading(true);
+    const formData = new FormData();
+    formData.append("image", file);
+    formData.append("title", title);
+    formData.append("description", des);
+    if(cat.length !== 0) formData.append("categories", cat);
     try {
-      const formData = new FormData();
-      formData.append("image", file);
-      formData.append("title", title);
-      formData.append("description", des);
-      formData.append("categories", cat);
       const res = postId
         ? await axios.patch("/post/" + postId, formData)
         : await axios.post("/post/", formData);
@@ -99,14 +99,10 @@ function NewBlog() {
     setCat(newCat);
   };
   const addTags = (e) => {
-    if(e.target.value.trim() === ''){
-        return;
+    if(e.target.value.trim() !== '' && cat.length < 5){
+      setCat([...cat, e.target.value.toLowerCase()]);
+      e.target.value = "";
     }
-    if(cat.length === 5){
-        return;
-    }
-    setCat([...cat, e.target.value.toLowerCase()]);
-    e.target.value = "";
   };
 
   const formats = ["bold", "italic", "underline", "strike"];
