@@ -1,0 +1,17 @@
+.insights{
+    display:flex;
+    justify-content: space-around;
+}
+.postNum,.userNum{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.postNum > h2 , .userNum > h2{
+    font-weight: 900;
+}
+.postNum > p, .userNum > p{
+    color: #555;
+}

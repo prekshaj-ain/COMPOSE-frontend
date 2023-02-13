@@ -1,0 +1,24 @@
+.UserProfile{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.UserProfile > .link{
+    text-decoration: none;
+    
+}
+.UserProfile > .link > .user-img{
+    width: 80px;
+    height: 80px;
+}
+.UserProfile > .link > .username{
+    color : #333;
+    font-size: .85rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.UserProfile > .userDesc{
+    color: #333;
+    font-size: .75rem;
+}

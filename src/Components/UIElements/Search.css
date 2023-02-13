@@ -1,0 +1,40 @@
+.searchResult{
+    width: 400px;
+    /* height: 300px; */
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 200;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    padding: 30px 20px;
+    gap: 30px;
+}
+.search--users, .search--posts{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.userImg{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.search--user, .search--post{
+    display: flex;
+    gap: 10px;
+    /* margin-block: 5px; */
+    font-size: .7rem;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.hidden{
+    display: none;
+}

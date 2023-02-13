@@ -1,0 +1,19 @@
+.tag{
+    /* border: 1px solid #555; */
+    border-radius: 30px;
+    width: fit-content;
+    padding: 7px 10px;
+    display: inline-block;
+    margin: 5px;
+    color: #555;
+    background-color: #b0929d4f;
+    text-decoration: none;
+}
+.tag:hover{
+    background-color: #7956634f;
+}
+@media (max-width: 425px){
+ .tag{
+    font-size: .8rem;
+ }   
+}

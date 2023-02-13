@@ -1,0 +1,10 @@
+.mainHeader{
+    border-bottom: 0.5px solid lightgrey;
+    padding: 5px 20px;
+    height: 50px;
+    display: flex;
+    position: sticky;
+    z-index: 5;
+    transition: top .5s ease-out;
+    background: #ebfaf2;
+}

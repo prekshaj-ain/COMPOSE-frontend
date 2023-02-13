@@ -1,0 +1,50 @@
+.singlePost{
+    padding-inline: 20px;
+    justify-content: center;
+    min-width: 100px;
+}
+.content{
+    width: 100%;
+    padding-block: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.content--title{
+    font-weight: 900;
+    word-spacing: -3px;
+
+}
+.content--image{
+    height: 320px;
+    object-fit: cover;
+}
+.content--para{
+    /* overflow: hidden; */
+    line-height: 30px;
+    color: #333;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+.content--para > p > br{
+    display: none;
+}
+@media (max-width: 420px){
+    .content{
+        gap: 30px;
+    }
+    .content--title{
+        font-size: 1.7rem;
+    }
+    .content--image{
+        height: 200px;
+    }
+    .content--para{
+        font-size: .8rem;
+    }
+}
+

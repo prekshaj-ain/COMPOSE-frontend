@@ -1,0 +1,41 @@
+.recommendPost{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.recommendPost--content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1 1 auto;
+}
+.recommendPost--content > .user-detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 20px;
+    font-size: .75rem;
+    text-decoration: none;
+}
+.user-detail > .user-img {
+    width: 22px;
+    height: 22px;
+}
+
+.author-name{
+    color: #333;
+    font-weight: 500;
+}
+.recommendPost--title{
+    font-size: .85rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.recommendPost--image > .img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}

@@ -1,0 +1,117 @@
+.mainNav {
+  align-items: center;
+  position: relative;
+}
+.heading {
+  flex: 1 0 auto;
+  display: flex;
+}
+.main-nav--title {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+.searchBar{
+  background-color: white;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  border: 0.5px solid lightgray;
+  border-radius: 30px;
+}
+.search--extend{
+  width: 100%;
+  height: calc(50px - 10px);
+  padding: 0px 5px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 200;
+  background-color: white;
+  left: 0;
+  right: 0;
+  top: 5px;
+  border-radius: 30px;
+}
+
+.small {
+  display: none;
+}
+.search--extend > .small{
+  display: block;
+  padding-left: 5px;
+}
+
+.searchInput {
+  /* margin-bottom: 8px; */
+  border: none;
+  width: 100%;
+  background: transparent;
+  outline: none;
+}
+.write,
+.login {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  font-size: 16px;
+  gap: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.write:hover,
+.userButton:hover,
+.login:hover{
+  color: #754995;
+}
+.userButton {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.userIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+}
+.hide {
+  display: none;
+}
+@media (max-width: 650px) {
+  .searchBar {
+    display: none;
+  }
+  .hide {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+}
+@media (max-width: 425px) {
+  .mainHeader {
+    padding: 5px 5px;
+  }
+  .main-nav--title {
+    font-size: 1.3rem;
+  }
+  .write,
+  .hide {
+    margin-right: 10px;
+    gap: 2px;
+  }
+  .userIcon {
+    width: 25px;
+    height: 25px;
+  }
+}

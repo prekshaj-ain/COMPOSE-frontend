@@ -1,0 +1,66 @@
+.edit{
+    position: fixed;
+    max-width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    width: 100%;
+    z-index: 200;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    display: none;
+}
+.err{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.25);
+    color: red;
+    font-size: .75rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.edit > h2{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: black;
+}
+.edit{
+    font-size: .7rem;
+    color: #666;
+}
+#image{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+#image > .user-img{
+    width: 80px;
+    height: 80px;
+}
+.input-text{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+    font-size: .7rem;
+}
+.btn{
+    font-size: .7rem;
+    border-radius: 60px;
+}
+.enable{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}

@@ -1,0 +1,31 @@
+.userMenu{
+    display: flex;
+    flex-direction: column;
+}
+.userMenu > *{
+    padding-block: 20px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    color: #888;
+    font-size: 16px;
+}
+.options > * {
+    display: flex;
+    flex-direction: row;
+    margin: 8px 24px;
+    color: inherit;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.options > *:hover, .logout:hover{
+    color: #352044;
+}
+.logout{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin: 8px 24px;
+    text-decoration: none;
+    cursor:pointer;
+}

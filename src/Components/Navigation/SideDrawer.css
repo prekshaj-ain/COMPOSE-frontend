@@ -1,0 +1,17 @@
+.side-drawer{
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    z-index:100;
+    max-width: 60%;
+    width: 260px;
+    min-width: 240px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+    transform: translateX(120%);
+    transition: transform .5s ease-in-out;
+    border-radius: 5px;
+}
+.show{
+    transform: translateX(0);
+}

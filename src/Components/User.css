@@ -1,0 +1,28 @@
+.user{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+.user-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-info{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.user-info--name{
+    font-weight: bolder;
+    font-size: .95rem;
+}
+.user-info--time{
+    margin:0;
+    color: #333;
+}
+

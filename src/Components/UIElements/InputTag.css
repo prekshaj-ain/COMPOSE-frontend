@@ -1,0 +1,23 @@
+
+.tagInput{
+    border-radius: 30px;
+    background-color: lightgray;
+    padding: 5px 7px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: .7rem;
+}
+.tagInput > p{
+    white-space: nowrap;
+}
+.EnterTag{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.closeIcon{
+    font-size: 1rem !important;
+    color: inherit;
+    cursor: pointer;
+}

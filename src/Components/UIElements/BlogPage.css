@@ -1,0 +1,7 @@
+.blogPage{
+    max-width: 1336px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

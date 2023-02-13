@@ -1,0 +1,61 @@
+.button {
+    font: inherit;
+    font-size: calc(.7vw + 10px);
+    padding: 0.5em 1.5em;
+    border: 1px solid #674b7c;
+    border-radius: 4px;
+    background: #674B7C;
+    color: #E5E8DC;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #321746;
+  }
+  
+  .button--inverse {
+    background: transparent;
+    color: #321746;
+  }
+  
+  .button--inverse:hover,
+  .button--inverse:active {
+    color: white;
+    background: #674B72;
+  }
+  
+  .button--danger {
+    background: #830000;
+    border-color: #830000;
+  }
+  
+  .button--danger:hover,
+  .button--danger:active {
+    background: #f34343;
+    border-color: #f34343;
+  }
+  
+  .button:disabled,
+  .button:hover:disabled,
+  .button:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .button--small {
+    width: max-content;
+  }
+  
+  .button--big {
+    width:100%;
+  }

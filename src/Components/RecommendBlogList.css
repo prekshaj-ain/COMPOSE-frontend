@@ -1,0 +1,17 @@
+
+.asideMenu--trendingPost > h5{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    color: #444;
+    letter-spacing: -.5px;
+    margin-bottom: 22px ;
+}
+.trendingPosts{
+    display: flex;
+    flex-direction: column;
+}
+.topics {
+    margin: 20px 0px;
+}

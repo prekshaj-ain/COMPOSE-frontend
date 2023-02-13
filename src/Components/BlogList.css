@@ -1,0 +1,24 @@
+.posts{
+    padding-top: 50px;
+    min-width: 500px;
+    max-width: 728px;
+}
+.posts >.heading{
+    padding-inline: 20px;
+    padding-bottom: 30px;
+}
+.MoreDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details{
+    color: #666;
+    cursor: pointer;
+}
+.details:hover, .details:active{
+    color: black;
+}
+.none{
+     display: none;
+}

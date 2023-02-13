@@ -1,0 +1,31 @@
+.userList{
+    padding-top: 20px;
+    min-width: 500px;
+    max-width: 728px;
+    width: 100%;
+    min-width: 100px;
+    
+}
+.userItem{
+    padding-block: 30px;
+    margin-inline: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.userItem > .user-img{
+    width: 80px;
+    height: 80px;
+}
+.userItem > .info{
+    font-size: .7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #666;
+}
+.userItem > .info > *:first-child{
+    font-weight: bold;
+    color: black;
+}

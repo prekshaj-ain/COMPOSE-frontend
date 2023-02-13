@@ -1,0 +1,20 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 24px 0 16px;
+  /* border-left: 0.5px solid rgba(153, 153, 153, 0.365); */
+  max-width: 368px;
+  min-width: 368px;
+  height: max-content;
+  min-height: calc(100vh - 80px);  
+  position: sticky;
+  top: 0px;
+}
+
+/* for tablets */
+@media (max-width: 900px) {
+  .aside{
+      display: none;
+  }
+}

@@ -1,0 +1,8 @@
+.section{
+    padding-top: 50px;
+    max-width: 728px;
+    box-sizing: border-box;
+    display: block;
+    flex: 1 1 auto;
+    min-width: 100px;
+}
